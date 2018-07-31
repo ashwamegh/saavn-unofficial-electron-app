@@ -1,5 +1,5 @@
 {
-  "name": "figma-unofficial-electron-app",
+  "name": "electron-app-bootstrap",
   "version": "1.0.0",
   "description": "An unofficial desktop application for the figma web application",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^2.0.5"
+  },
+  "dependencies": {
+    "offline-js": "^0.7.19"
   }
 }
