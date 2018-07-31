@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "An unofficial desktop application for the figma web application",
   "main": "index.js",
+  "build": {
+    "appId": "boilerplate.electron1234",
+    "mac": {
+      "category": "electron.boilerplate.general.app"
+    }
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
   },
   "keywords": [
     "figma",
@@ -14,7 +23,8 @@
   "author": "Shashank Shekhar",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^2.0.5"
+    "electron": "^2.0.5",
+    "electron-builder": "^20.26.1"
   },
   "dependencies": {}
 }
