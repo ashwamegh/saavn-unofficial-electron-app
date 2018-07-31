@@ -12,5 +12,8 @@
     "desktop"
   ],
   "author": "Shashank Shekhar",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.5"
+  }
 }
