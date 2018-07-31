@@ -1,0 +1,16 @@
+{
+  "name": "figma-unofficial-electron-app",
+  "version": "1.0.0",
+  "description": "An unofficial desktop application for the figma web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "figma",
+    "electron",
+    "desktop"
+  ],
+  "author": "Shashank Shekhar",
+  "license": "MIT"
+}
