@@ -1,7 +1,7 @@
 {
-  "name": "electron-app-bootstrap",
+  "name": "electron-app-boilerplate",
   "version": "1.0.0",
-  "description": "An unofficial desktop application for the figma web application",
+  "description": "An electron desktop application boilerplate with packager",
   "main": "index.js",
   "build": {
     "appId": "boilerplate.electron1234",
@@ -24,7 +24,9 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^2.0.5",
-    "electron-builder": "^20.26.1"
+    "electron-builder": "^20.26.1",
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.9.1"
   },
   "dependencies": {}
 }
