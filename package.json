@@ -1,12 +1,12 @@
 {
-  "name": "electron-app-boilerplate",
+  "name": "saavn-unofficial-electron-app",
   "version": "1.0.0",
-  "description": "An electron desktop application boilerplate with packager",
+  "description": "An unofficial Saavn electron app",
   "main": "index.js",
   "build": {
-    "appId": "boilerplate.electron1234",
+    "appId": "unofficial.saavn.electron",
     "mac": {
-      "category": "electron.boilerplate.general.app"
+      "category": "electron.unofficial.saavn"
     }
   },
   "scripts": {
@@ -16,9 +16,10 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "keywords": [
-    "figma",
+    "saavn",
     "electron",
-    "desktop"
+    "desktop",
+    "unofficial"
   ],
   "author": "Shashank Shekhar",
   "license": "MIT",
